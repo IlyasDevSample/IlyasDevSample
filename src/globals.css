@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root {
+    @apply bg-primary h-[10000px];
+}
+
+.logo {
+    @apply text-lg fixed left-[38px] hover:text-tSecondary transition-colors bg-primary bg-opacity-50 rounded-md p-1 cursor-pointer;
+}
+
+.nav-link {
+    @apply text-primary transition-colors hover:bg-red-50 rounded-sm p-1 text-xl font-bold cursor-pointer; 
+}
+
+.active-link {
+    @apply bg-red-50;
+}
+
+.active-link .point {
+    @apply inline;
+}
+.profile__pic {
+    @apply w-[250px] h-[200px] md:w-[300px] md:h-[300px] bg-profileImg bg-cover bg-center bg-no-repeat order-1 justify-self-center ;
+}
+
+.animate-profile {
+    animation: animate-profile 8s ease-in-out infinite 1s;
+}
+
+@keyframes animate-profile {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+    width: 0.2rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #3C3B5A;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #DE5646;
+}
+
