@@ -28,7 +28,7 @@ const Header = () => {
                     </p>
                 </div>
                 <div className="flex justify-between items-center gap-14">
-                    <a href="#" className='text-sm hidden md:flex gap-3 items-center justify-center hover:text-tSecondary transition-colors font-semibold'>
+                    <a href="#" className='text-base animate-bounce hidden md:flex gap-3 items-center justify-center hover:text-tSecondary transition-colors font-semibold'>
                         Download CV
                         <i class="fa-solid fa-download"></i>
                     </a>

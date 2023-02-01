@@ -6,13 +6,13 @@ const Services = () => {
     return (
         <div id="services" className='h-[100vh] text-tPrimary container mx-auto px-4 flex justify-center items-center'>
             <div className='flex flex-wrap justify-between items-center gap-6'>
-                <div className='flex-1 min-w-[320px] sm:min-w-[350px] max-w-[700px] flex justify-center items-center'>
+                <div className='card flex justify-center items-center'>
                     <div className='w-[320px] sm:w-[350px] lg:w-[700px]'>
                         <img src="/images/services.svg" alt="services" className='w-full' />
                     </div>
                 </div>
-                <div className='flex-1 min-w-[320px] sm:min-w-[350px] max-w-[700px] '>
-                    <h2 className='text-2xl lg:text-4xl font-heading font-bold tracking-wider mb-7 '>What <span className='text-tSecondary'>Services</span> I Provde To
+                <div className='card'>
+                    <h2 className='text-2xl lg:text-4xl font-heading font-bold mb-7 '>What <span className='text-tSecondary'>Services</span> I Provde To
                         <span className='mt-2 block'>My Clients In Here.</span>
                     </h2>
                     <p className='text-lg md:text-base lg:text-lg leading-relaxed text-gray-400'>

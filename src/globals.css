@@ -32,6 +32,14 @@
     animation: animate-profile 8s ease-in-out infinite 1s;
 }
 
+.card {
+    @apply flex-1 min-w-[320px] sm:min-w-[350px] max-w-[700px];
+}
+
+.skill {
+    @apply w-16 h-16 sm:w-20 sm:h-20 rounded-full flex items-center justify-center p-4;
+}
+
 @keyframes animate-profile {
     0% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
