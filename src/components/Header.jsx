@@ -15,7 +15,7 @@ const Header = () => {
                 <div className="logo z-10">
                     <a href="/">
                         <h1><span className='font-bold'>Ilyas</span> Elaissi</h1>
-                        <i class="fa-regular fa-hand-pointer absolute -bottom-3 -right-2 -rotate-12"></i>
+                        <i className="fa-regular fa-hand-pointer absolute -bottom-3 -right-2 -rotate-12"></i>
                     </a>
                 </div>
                 <div className="lg:flex justify-between items-center hidden gap-8 -ml-28">
@@ -30,7 +30,7 @@ const Header = () => {
                 <div className="flex justify-between items-center gap-14">
                     <a href="#" className='text-base animate-bounce hidden md:flex gap-3 items-center justify-center hover:text-tSecondary transition-colors font-semibold'>
                         Download CV
-                        <i class="fa-solid fa-download"></i>
+                        <i className="fa-solid fa-download"></i>
                     </a>
                     <div className='flex justify-between items-center gap-14 fixed right-10 z-40'>
                         <p className=' font-semibold text-base sm:flex items-center justify-center gap-3 hidden'>
@@ -40,7 +40,7 @@ const Header = () => {
                             <button
                                 className='bg-tPrimary w-[34px] h-[34px] rounded-sm'
                             >
-                                <i class="fa-brands fa-rocketchat text-primary"></i>
+                                <i className="fa-brands fa-rocketchat text-primary"></i>
                             </button>
                         </p>
 

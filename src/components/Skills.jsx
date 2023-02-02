@@ -7,7 +7,7 @@ const Skills = () => {
             <div className='  flex flex-wrap justify-center sm:justify-between items-center sm:gap-6 h-full gap-11'>
                 <div className='card '>
                     <h2 className='text-2xl lg:text-4xl font-heading font-bold mb-7 capitalize'>
-                        As A <g className='text-tSecondary font-semibold'>Developer</g> I Am Good Fit
+                        As A <span className='text-tSecondary font-semibold'>Developer</span> I Am Good Fit
                         <p className='mt-2'>With some key
                             <span className='text-tSecondary font-semibold'>
                                 &nbsp;Skills.
@@ -15,10 +15,10 @@ const Skills = () => {
 
                     </h2>
                     <p className='text-lg md:text-base lg:text-lg leading-relaxed text-gray-400'>
-                        All Developers have good skills to make sure satisfied their clients, As a <g>developer</g> I am also specialised few
-                        <g className='text-tSecondary font-semibold'>
+                        All Developers have good skills to make sure satisfied their clients, As a <span>developer</span> I am also specialised few
+                        <span className='text-tSecondary font-semibold'>
                             &nbsp;Skills.
-                        </g>
+                        </span>
                     </p>
                     <div>
                         <div className="flex items-center justify-start gap-8 text-2xl text-gray-200 mt-8 ">
@@ -73,17 +73,17 @@ const Skills = () => {
                     <div className='skill bg-blue-300'>
                         <img className='w-full sm:p-2' src="/icons/typescript-icon.png" alt="typescript" />
                     </div>
-                    <div className='skill bg-green-300'>
-                        <img className='w-full p-2 sm:p-3 -mb-1' src="/icons/mongodb-icon.png" alt="mongodb" />
-                    </div>
                     <div className='skill bg-gray-100'>
                         <img className='w-full sm:p-2 -mt-2' src="/icons/java-icon.png" alt="java" />
+                    </div>
+                    <div className='skill bg-green-300'>
+                        <img className='w-full p-2 sm:p-3 -mb-1' src="/icons/mongodb-icon.png" alt="mongodb" />
                     </div>
                     <div className='skill bg-red-100'>
                         <img className='w-full sm:p-2' src="/icons/git-icon.png" alt="git" />
                     </div>
                     <div className='skill bg-gray-50 cursor-pointer'>
-                        <a href="">
+                        <a href="" className='animate-pulse'>
                             <img className='w-full sm:p-2' src="/icons/dots-icon.png" alt="explore more" />
                         </a>
                     </div>

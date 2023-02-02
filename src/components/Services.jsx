@@ -1,6 +1,5 @@
-import { BsWindowSidebar } from 'react-icons/bs'
+import { BsPhone, BsWindowSidebar } from 'react-icons/bs'
 import { GoServer } from 'react-icons/go'
-import { CiMobile3 } from 'react-icons/ci'
 
 const Services = () => {
     return (
@@ -39,7 +38,7 @@ const Services = () => {
                             <div className='flex gap-3 items-center group'>
                                 <div
                                     className='flex items-center justify-center p-2 lg:p-3 rounded-full bg-blue-400 group-hover:bg-tSecondary transition-all duration-700'>
-                                    <CiMobile3 className='text-2xl' />
+                                    <BsPhone className='text-2xl' />
                                 </div>
                                 <h3
                                     className='text-lg font-semibold border-b-2 border-transparent group-hover:border-tSecondary py-2 transition-all duration-700'>
