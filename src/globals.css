@@ -54,6 +54,13 @@
     }
 }
 
+.contactInput{
+    @apply w-full py-2 bg-primary border-b border-tSecondary outline-none;
+}
+.line{
+    @apply w-0 h-[1px] bg-tPrimary absolute bottom-0 left-0 peer-focus:w-full transition-all duration-300 ease-in-out;
+}
+
 @keyframes animate-profile {
     0% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
