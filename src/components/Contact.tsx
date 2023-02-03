@@ -38,11 +38,20 @@ const Contact = () => {
                     e.target[0].value = ''
                     e.target[1].value = ''
                     e.target[2].value = ''
-                    console.log(res)
+                    
                 }
                 )
                 .catch(err => {
-                    console.log(err)
+                    setIsSending(false)
+                    toast.error('Something went wrong', {
+                        position: 'top-center',
+                        autoClose: 5000,
+                        hideProgressBar: false,
+                        closeOnClick: true,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                    })
                 })
 
 
