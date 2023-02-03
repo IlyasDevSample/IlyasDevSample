@@ -26,7 +26,7 @@ const Contact = () => {
             axios.post(URL, data)
                 .then(res => {
                     setIsSending(false)
-                    toast.success('Thank you for contacting me XD', {
+                    toast.success('Thank you for contacting me', {
                         position: 'top-center',
                         autoClose: 5000,
                         hideProgressBar: false,
