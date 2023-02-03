@@ -1,4 +1,4 @@
-## My Github repository for my personal website
+## Welcome to my GitHub page!
 
-This is my personal website. It is a work in progress. I am using it to learn more about web development. I am using the following technologies:
+visit my website at [www.ilyaselaissi.me](www.ilyaselaissi.me)
 
