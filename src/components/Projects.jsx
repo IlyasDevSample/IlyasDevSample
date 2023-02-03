@@ -97,7 +97,8 @@ const Projects = () => {
                                 </div>
                                 <div className='mt-4'>
                                     <h3 className='text-2xl font-extrabold mb-2 capitalize'>Artist Portfolio</h3>
-                                    <p className='text-sm mb-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <p className='text-sm mb-2'>
+                                    This is a portfolio website for an artist. It is a single page website that contains a home page, about page, and contact page.
                                     </p>
 
                                 </div>
@@ -122,7 +123,8 @@ const Projects = () => {
                                 </div>
                                 <div className='mt-4'>
                                     <h3 className='text-2xl font-extrabold mb-2 capitalize'>Bootstrap Portfolio</h3>
-                                    <p className='text-sm mb-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <p className='text-sm mb-2'>
+                                    This is a portfolio website created with bootstrap for a Signer. It is a single page website that contains a home page, about section, and contact section . . .
                                     </p>
 
                                 </div>
