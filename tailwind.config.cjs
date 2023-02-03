@@ -14,7 +14,7 @@ module.exports = {
         tNav: "rgba(0, 0, 0, .65)",
       },
       backgroundImage: {
-        "profileImg": "url('images/profilePic.jpg')",
+        "profileImg": "url('/images/profilePic.jpg')",
       }
       
     },
