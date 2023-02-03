@@ -44,7 +44,7 @@ const Header = () => {
                             </button>
                         </p>
 
-                        <div className="text-2xl cursor-pointer">
+                        <div className="text-2xl cursor-pointer bg-primary bg-opacity-50 rounded-md p-1">
                             <button onClick={() => setToggle(!toggle)} 
                                 className='flex flex-col justify-center items-end gap-[5px] max-w-6 w-6 '>
 
