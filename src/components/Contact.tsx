@@ -71,7 +71,7 @@ const Contact = () => {
 
     return (
         <div id="contact" className='h-[100vh] text-tPrimary container mx-auto px-4 flex justify-center items-center'>
-            <div className='flex flex-wrap justify-between items-center gap-2 sm:gap-6'>
+            <div className='flex flex-wrap-reverse justify-between items-center gap-2 sm:gap-6'>
                 <div className="card">
                     <h2 className='text-2xl lg:text-4xl font-heading font-bold mb-4 sm:mb-7 '>
                         <span className='text-tSecondary'>Contact</span> Me.
@@ -94,7 +94,7 @@ const Contact = () => {
                         </div>
                         <button
                             type='submit'
-                            className="group bg-tSecondary text-white font-semibold py-3 px-6 rounded-xl shadow-lg hover:shadow-xl ease-in-out flex items-center justify-between w-[160px] hover:w-[175px] transition-all duration-1000 mt-2 relative">
+                            className="group bg-tSecondary text-white font-semibold py-3 px-6 rounded-xl shadow-lg hover:shadow-xl ease-in-out flex items-center justify-between w-[160px] hover:w-[175px] transition-all duration-1000 sm:mt-2 relative">
                             <p>Send</p>
                             {isSending ? <AiOutlineLoading className='animate-spin ml-2 inline-block text-2xl' /> : <FiSend className='inline-block ml-2 text-xl' />}
                             <div className="absolute group-hover:left-[107px] left-1 w-16 h-10 bg-tPrimary bg-opacity-20 rounded-xl transition-all duration-1000"></div>
@@ -102,7 +102,7 @@ const Contact = () => {
                     </form>
                 </div>
                 <div className='card flex justify-center items-center'>
-                    <div className='w-[290px] sm:w-[350px] lg:w-[700px]'>
+                    <div className='w-[250px] sm:w-[350px] lg:w-[700px]'>
                         <img src="/images/contactUs.svg" alt="services" className='w-full' />
                     </div>
                 </div>

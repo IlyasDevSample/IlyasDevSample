@@ -19,7 +19,10 @@ const Header = () => {
                     </a>
                 </div>
                 <div className="lg:flex justify-between items-center hidden gap-8 -ml-28">
-                    <p>Call me <span className='hover:text-tSecondary transition-colors cursor-pointer tracking-widest '>(+212) 6 34029817</span></p>
+                    <p>Call me <span className='hover:text-tSecondary transition-colors cursor-pointer tracking-widest '>
+                        <a href="tel:+212634029817">(+212) 6 34029817</a>
+                        </span>
+                    </p>
                     <span className='select-none text-lg'>/</span>
                     <p>
                         <a href="mailto:elaissiilyas@gmail.com " className='hover:text-tSecondary transition-colors '>
@@ -33,19 +36,24 @@ const Header = () => {
                         <i className="fa-solid fa-download"></i>
                     </a>
                     <div className='flex justify-between items-center gap-14 fixed right-10 z-40'>
-                        <p className=' font-semibold text-base sm:flex items-center justify-center gap-3 hidden'>
-                            <span className='hover:text-tSecondary transition-colors cursor-pointer '>
-                                Let's Chats
-                            </span>
-                            <button
-                                className='bg-tPrimary w-[34px] h-[34px] rounded-sm'
-                            >
-                                <i className="fa-brands fa-rocketchat text-primary"></i>
-                            </button>
-                        </p>
-
-                        <div className="text-2xl cursor-pointer bg-primary bg-opacity-50 rounded-md p-1">
-                            <button onClick={() => setToggle(!toggle)} 
+                        <Scroll.Link
+                            to='contact' 
+                            smooth={true} 
+                            duration={500}
+                        >
+                            <p className=' font-semibold text-base sm:flex items-center justify-center gap-3 hidden'>
+                                <span className='hover:text-tSecondary transition-colors cursor-pointer '>
+                                    Let's Chats
+                                </span>
+                                <button
+                                    className='bg-tPrimary w-[34px] h-[34px] rounded-sm'
+                                >
+                                    <i className="fa-brands fa-rocketchat text-primary"></i>
+                                </button>
+                            </p>
+                        </Scroll.Link>
+                        <div className="text-2xl cursor-pointer bg-primary bg-opacity-50 rounded-md p-2">
+                            <button onClick={() => setToggle(!toggle)}
                                 className='flex flex-col justify-center items-end gap-[5px] max-w-6 w-6 '>
 
                                 <motion.span
@@ -119,7 +127,7 @@ const Header = () => {
                                     animate={{ opacity: 1, y: 0 }}
                                     exit={{ opacity: 0, y: 40 }}
                                     transition={{ duration: 0.4, ease: 'easeOut', delay: 0.3 }}
-                                    
+
 
                                     className='flex flex-col items-start justify-center w-full art gap-10 pt-16'>
                                     <li>
@@ -148,7 +156,7 @@ const Header = () => {
 
             </AnimatePresence>
             <section className='h-[calc(100%-100px)]'>
-                    <About />
+                <About />
             </section>
         </header>
     )
