@@ -31,7 +31,7 @@ const Header = () => {
                     </p>
                 </div>
                 <div className="flex justify-between items-center gap-14">
-                    <a href="#" className='text-base animate-bounce hidden md:flex gap-3 items-center justify-center hover:text-tSecondary transition-colors font-semibold'>
+                    <a href="/pdf/CV de ILYAS ELAISSI.pdf" download className='text-base animate-bounce hidden md:flex gap-3 items-center justify-center hover:text-tSecondary transition-colors font-semibold'>
                         Download CV
                         <i className="fa-solid fa-download"></i>
                     </a>
