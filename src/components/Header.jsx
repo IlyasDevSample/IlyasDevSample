@@ -26,7 +26,7 @@ const Header = () => {
                     <span className='select-none text-lg'>/</span>
                     <p>
                         <a href="mailto:elaissiilyas@gmail.com " className='hover:text-tSecondary transition-colors '>
-                            elaissiilyas@gmail.com
+                            contact@ilyaselaissi.me
                         </a>
                     </p>
                 </div>
