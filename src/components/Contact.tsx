@@ -70,7 +70,7 @@ const Contact = () => {
     }
 
     return (
-        <div id="contact" className='h-[100vh] text-tPrimary container mx-auto px-4 flex justify-center items-center'>
+        <div id="contact" className='min-h-[100vh] text-tPrimary container mx-auto px-4 flex justify-center items-center'>
             <div className='flex flex-wrap-reverse justify-between items-center gap-2 sm:gap-6'>
                 <div className="card">
                     <h2 className='text-2xl lg:text-4xl font-heading font-bold mb-4 sm:mb-7 '>
