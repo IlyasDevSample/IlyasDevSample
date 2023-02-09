@@ -1,6 +1,8 @@
 import React from 'react'
 import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs'
 
+const cvSRC = '/pdf/CV de ILYAS ELAISSI.pdf'
+
 const Skills = () => {
     return (
         <div id="skills" className='h-[100vh] text-tPrimary container mx-auto px-4'>
@@ -33,12 +35,12 @@ const Skills = () => {
                             </a>
                         </div>
                         <div className='mt-8'>
-                            <a href="/pdf/CV de ILYAS ELAISSI.pdf" download
+                            <a href={cvSRC} download
                                 className='text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'
                             >
                                 Download CV <i className="fas fa-download"></i>
                             </a>
-                            <a href="/pdf/CV de ILYAS ELAISSI.pdf" target="_blank"
+                            <a href={cvSRC} target="_blank"
                                 className='text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'
                             >
                                 View CV <i className="fas fa-file-pdf"></i>
@@ -83,7 +85,7 @@ const Skills = () => {
                         <img className='w-full sm:p-2' src="/icons/git-icon.png" alt="git" />
                     </div>
                     <div className='skill bg-gray-50 cursor-pointer'>
-                        <a href="/pdf/CV de ILYAS ELAISSI.pdf" className='animate-pulse'>
+                        <a href={cvSRC} target='_blank' className='animate-pulse'>
                             <img className='w-full sm:p-2' src="/icons/dots-icon.png" alt="explore more" />
                         </a>
                     </div>
