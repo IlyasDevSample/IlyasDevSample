@@ -5,8 +5,8 @@ const cvSRC = '/pdf/CV de ILYAS ELAISSI.pdf'
 
 const Skills = () => {
     return (
-        <div id="skills" className='h-[100vh] text-tPrimary container mx-auto px-4'>
-            <div className='  flex flex-wrap justify-center sm:justify-between items-center sm:gap-6 h-full gap-11'>
+        <div id="skills" className='min-h-[100vh] text-tPrimary container mx-auto px-4 flex items-center'>
+            <div className='flex flex-wrap justify-center sm:justify-between items-center sm:gap-6 h-full gap-20'>
                 <div className='card '>
                     <h2 className='text-2xl lg:text-4xl font-heading font-bold mb-7 capitalize'>
                         As A <span className='text-tSecondary font-semibold'>Developer</span> I Am Good Fit
@@ -50,7 +50,7 @@ const Skills = () => {
 
                     </div>
                 </div>
-                <div className='card flex justify-center -mt-44 sm:mt-0 gap-2 sm:gap-5 flex-wrap sm:px-10 lg:px-28'>
+                <div className='card flex justify-center sm:mt-0 gap-2 sm:gap-5 flex-wrap sm:px-10 xl:px-28'>
                     <div className='skill bg-blue-50'>
                         <img className='w-full' src="/icons/react.png" alt="reactJs" />
                     </div>

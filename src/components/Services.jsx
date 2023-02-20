@@ -11,7 +11,7 @@ const Services = () => {
                     </div>
                 </div>
                 <div className='card'>
-                    <h2 className='text-2xl lg:text-4xl font-heading font-bold mb-7 '>What <span className='text-tSecondary'>Services</span> I Provde To
+                    <h2 className='text-2xl lg:text-4xl font-heading font-bold mb-7 '>What <span className='text-tSecondary'>Services</span> I Provide To
                         <span className='mt-2 block'>My Clients In Here.</span>
                     </h2>
                     <p className='text-lg md:text-base lg:text-lg leading-relaxed text-gray-400'>
