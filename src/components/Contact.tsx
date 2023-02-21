@@ -77,7 +77,7 @@ const Contact = () => {
                         <span className='text-tSecondary'>Contact</span> Me.
                     </h2>
                     <p className='text-base md:text-base lg:text-lg leading-relaxed text-gray-400'>
-                        If you have a project that you want to get started, think you need my help with something or just fancy saying hello, then get in touch.
+                        If you have a project that you want to get started, think you need my help with something, or just fancy saying hello, then get in touch.
                     </p>
                     <form className='flex flex-col gap-5 mt-5 sm:mt-10' onSubmit={handleSubmit}>
                         <div className='relative peer'>
