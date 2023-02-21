@@ -15,7 +15,7 @@ const Services = () => {
                         <span className='mt-2 block'>My Clients In Here.</span>
                     </h2>
                     <p className='text-lg md:text-base lg:text-lg leading-relaxed text-gray-400'>
-                        I always want to be able to meet the goals of my clients, I value my services as a developer through my work. You may like my <span className="text-tSecondary font-semibold">
+                        I always want to be able to meet the goals of my clients, I value my services as a <span className='text-tSecondary font-semibold'>Developer</span> through my work. You may like my <span className="text-tSecondary font-semibold">
                             services.
                         </span>
                     </p>
