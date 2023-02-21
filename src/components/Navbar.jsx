@@ -40,7 +40,7 @@ const Navbar = () => {
                         >
                             <p className=' font-semibold text-base sm:flex items-center justify-center gap-3 hidden'>
                                 <span className='hover:text-tSecondary transition-colors cursor-pointer '>
-                                    Let's Chats
+                                    Let's Chat
                                 </span>
                                 <button
                                     className='bg-tPrimary w-[34px] h-[34px] rounded-sm'
