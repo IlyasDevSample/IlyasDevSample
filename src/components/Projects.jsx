@@ -36,12 +36,11 @@ const Projects = () => {
                         <div className='project-card'>
                             <div>
                                 <div className='relative '>
-                                    <a href="https://tikitaka-iota.vercel.app/" target='_blank'><img src="images/tikitaka.png" className='w-full h-[150px] rounded-t-lg
-                            object-cover object-center
-                            ' alt="Project Image" />
+                                    <a href="https://tikitaka-iota.vercel.app/" target='_blank'>
+                                        <img src="images/tikitaka.png" className='w-full h-[150px] rounded-t-lg object-cover object-center border-blue-200 border' alt="Project Image" />
                                     </a>
                                     <span className='absolute bottom-0 right-1/2 
-                            transform translate-x-1/2 bg-gray-100 text-primary rounded-t-lg px-2 py-1 text-xs font-semibold'>Web App</span>
+                            transform translate-x-1/2 bg-gray-100 text-primary rounded-t-lg px-2 py-1 text-xs font-semibold border border-b-transparent border-blue-200'>Web App</span>
                                 </div>
                                 <div className='mt-4'>
                                     <h3 className='text-2xl font-extrabold mb-2 capitalize'>TIKI TAKA</h3>
@@ -61,12 +60,10 @@ const Projects = () => {
                         <div className='project-card'>
                             <div>
                                 <div className='relative '>
-                                    <a href="https://ilyasdevsample.github.io/travel_companion/" target='_blank'><img src="images/travelCompanionImage.png" className='w-full h-[150px] rounded-t-lg
-                            object-cover object-center
-                            ' alt="Project Image" />
+                                    <a href="https://ilyasdevsample.github.io/travel_companion/" target='_blank'><img src="images/travelCompanionImage.png" className='w-full h-[150px] rounded-t-lg object-cover object-center border-blue-200 border' alt="Project Image" />
                                     </a>
                                     <span className='absolute bottom-0 right-1/2 
-                            transform translate-x-1/2 bg-gray-100 text-primary rounded-t-lg px-2 py-1 text-xs font-semibold'>Web App</span>
+                            transform translate-x-1/2 bg-gray-100 text-primary rounded-t-lg px-2 py-1 text-xs font-semibold border border-b-transparent border-blue-200'>Web App</span>
                                 </div>
                                 <div className='mt-4'>
                                     <h3 className='text-2xl font-extrabold mb-2 capitalize'>Travel Companion</h3>
@@ -87,11 +84,11 @@ const Projects = () => {
                             <div>
                                 <div className='relative '>
                                     <a href="https://ilyasdevsample.github.io/ArtistPortfolio/" target='_blank'><img src="images/artistportfolio.png" className='w-full h-[150px] rounded-t-lg
-                            object-cover object-center
+                            object-cover object-center border-blue-200 border
                             ' alt="Project Image" />
                                     </a>
                                     <span className='absolute bottom-0 right-1/2 
-                            transform translate-x-1/2 bg-gray-100 text-primary rounded-t-lg px-2 py-1 text-xs font-semibold'>
+                            transform translate-x-1/2 bg-gray-100 text-primary rounded-t-lg px-2 py-1 text-xs font-semibold border border-b-transparent border-blue-200'>
                                         Theme
                                     </span>
                                 </div>
@@ -113,11 +110,9 @@ const Projects = () => {
                         <div className='project-card'>
                             <div>
                                 <div className='relative '>
-                                    <a href="https://ilyasdevsample.github.io/bootstrapPortfolio/" target='_blank'><img src="images/bootstrapportfolio.png" className='w-full h-[150px] rounded-t-lg
-                            object-cover object-center
-                            ' alt="Project Image" />
+                                    <a href="https://ilyasdevsample.github.io/bootstrapPortfolio/" target='_blank'><img src="images/bootstrapportfolio.png" className='w-full h-[150px] rounded-t-lg object-cover object-center border-blue-200 border' alt="Project Image" />
                                     </a>
-                                    <span className='absolute bottom-0 right-1/2 transform translate-x-1/2 bg-gray-100 text-primary rounded-t-lg px-2 py-1 text-xs font-semibold'>
+                                    <span className='absolute bottom-0 right-1/2 transform translate-x-1/2 bg-gray-100 text-primary rounded-t-lg px-2 py-1 text-xs font-semibold border border-b-transparent border-blue-200'>
                                         Theme
                                     </span>
                                 </div>
