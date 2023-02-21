@@ -10,8 +10,8 @@ const Project = () => {
 
     useEffect(() => {
         if (projectName === 'tikitaka') {
-            window.location.href = 'https://tikitaka-iota.vercel.app'
-            setURL('https://tikitaka-iota.vercel.app')
+            window.location.href = 'https://tikitaka.ilyaselaissi.me'
+            setURL('https://tikitaka.ilyaselaissi.me')
         }
         else if (projectName === 'travelcompanion') {
             window.location.href = 'https://ilyasdevsample.github.io/travel_companion'
