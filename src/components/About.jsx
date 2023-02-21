@@ -57,7 +57,7 @@ const About = () => {
                         animate={{ y: 0 }}
                         transition={{ duration: 0.9 }}
                         className="text-lg leading-relaxed text-gray-400">
-                        Hey, are looking for <span className="text-tSecondary font-semibold">Developer</span> to build your <span className="text-tSecondary font-semibold">Brand and grow your business?</span> let's shake hands with me.
+                        Hey, are looking for a developer to build your <span className="text-tSecondary font-semibold">Brand and grow your business?</span> let's shake hands.
                     </motion.p>
                     <Scroll.Link to="contact" smooth={true} duration={1000}>
                         <motion.button

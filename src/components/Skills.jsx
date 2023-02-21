@@ -17,7 +17,7 @@ const Skills = () => {
 
                     </h2>
                     <p className='text-lg md:text-base lg:text-lg leading-relaxed text-gray-400'>
-                        All Developers have good skills to make sure satisfied their clients, As a <span className='text-tSecondary font-semibold'>Developer</span>, I am also specialized in a few
+                        All Developers have good skills to make sure satisfied their clients, As a developer, I am also specialized in a few
                         <span className='text-tSecondary font-semibold'>
                             &nbsp;Skills.
                         </span>
