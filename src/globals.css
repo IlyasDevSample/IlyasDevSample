@@ -7,6 +7,9 @@
 #root {
     @apply bg-primary;
 }
+p::selection, span::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, a::selection, li::selection, button::selection, input::selection, textarea::selection {
+    @apply text-tPrimary bg-tSecondary;
+}
 
 .logo {
     @apply text-lg fixed left-[38px] hover:text-tSecondary transition-colors bg-primary bg-opacity-50 rounded-md p-1 cursor-pointer;
