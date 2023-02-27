@@ -42,7 +42,7 @@ img{
 }
 
 .skill {
-    @apply w-16 h-16 sm:w-20 sm:h-20 rounded-full flex items-center justify-center p-4;
+    @apply w-16 h-16 sm:w-[74px] sm:h-[74px] md:w-[70px] md:h-[70px] lg:w-[74px] lg:h-[74px] xl:w-20 xl:h-20 rounded-full flex items-center justify-center p-4;
 }
 
 .project-card {

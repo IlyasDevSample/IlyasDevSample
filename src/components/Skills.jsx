@@ -50,7 +50,7 @@ const Skills = () => {
 
                     </div>
                 </div>
-                <div className='card flex justify-center sm:mt-0 gap-2 sm:gap-5 flex-wrap sm:px-10 xl:px-28'>
+                <div className='card md:pl-5 flex justify-center md:justify-start sm:mt-0 gap-2 sm:gap-4 xl:gap-5 flex-wrap lg:pl-10 xl:pl-28'>
                     <div className='skill bg-blue-50'>
                         <img className='w-full' src="/icons/react.png" alt="reactJs" />
                     </div>
@@ -75,11 +75,20 @@ const Skills = () => {
                     <div className='skill bg-blue-300'>
                         <img className='w-full sm:p-2' src="/icons/typescript-icon.png" alt="typescript" />
                     </div>
+                    <div className='skill bg-purple-100'>
+                        <img className='w-full sm:p-2' src="/icons/redux.svg" alt="redux" />
+                    </div>
                     <div className='skill bg-gray-100'>
                         <img className='w-full sm:p-2 -mt-2' src="/icons/java-icon.png" alt="java" />
                     </div>
+                    <div className='skill bg-purple-200'>
+                        <img className='w-full sm:p-2' src="/icons/c--4.svg" alt="csharp" />
+                    </div>
                     <div className='skill bg-green-300'>
                         <img className='w-full p-2 sm:p-3 -mb-1' src="/icons/mongodb-icon.png" alt="mongodb" />
+                    </div>
+                    <div className='skill bg-green-100'>
+                        <img className='w-full sm:p-2' src="/icons/spring-3.svg" alt="spring-boot" />
                     </div>
                     <div className='skill bg-red-100'>
                         <img className='w-full sm:p-2' src="/icons/git-icon.png" alt="git" />
