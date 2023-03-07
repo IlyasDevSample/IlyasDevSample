@@ -50,7 +50,7 @@ const Skills = () => {
 
                     </div>
                 </div>
-                <div className='card md:pl-5 flex justify-center md:justify-start sm:mt-0 gap-2 sm:gap-4 xl:gap-5 flex-wrap lg:pl-10 xl:pl-28'>
+                <div className='card lg:pr-10 md:pl-5 flex justify-center md:justify-start lg:justify-end sm:mt-0 gap-2 sm:gap-4 xl:gap-5 flex-wrap lg:pl-10 xl:pl-28'>
                     <div className='skill bg-blue-50'>
                         <img className='w-full' src="/icons/react.png" alt="reactJs" />
                     </div>
