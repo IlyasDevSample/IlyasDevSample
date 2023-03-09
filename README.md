@@ -4,6 +4,6 @@ Visit my website at <a href="https://www.ilyaselaissi.me/" target="_blank">www.i
 
 ### About me
 
-I'm a software engineer, I love to code and I'm passionate about technology.
+I am a reliable Web and Mobile developer, with expertise in backend development in addition to my solid frontend technical foundation. I am able to design complete and efficient solutions, using a variety of programming languages and frameworks.
 
 
