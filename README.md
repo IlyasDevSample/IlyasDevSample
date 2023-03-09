@@ -4,7 +4,7 @@ Visit my website at <a href="https://www.ilyaselaissi.me/" target="_blank">www.i
 
 ### About me
 
-#I'm Ilyas elaissi
+I'm Ilyas elaissi.
 A Reliable Web and Mobile Developer
 I'm a highly skilled Web and Mobile developer with a strong foundation in both frontend and backend development. My expertise in backend development, coupled with my solid frontend technical knowledge, enables me to design complete and efficient solutions.
 
