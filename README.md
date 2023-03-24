@@ -10,5 +10,3 @@ I'm a highly skilled Web and Mobile developer with a strong foundation in both f
 
 I'm well-versed in a variety of programming languages and frameworks and have a proven track record of delivering high-quality projects within tight deadlines.
 
-Let's work together to bring your ideas to life!
-
